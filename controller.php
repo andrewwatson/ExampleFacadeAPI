@@ -8,7 +8,7 @@ get('/', function(){
 
 get(';^/v1/Users/(?<id>\d+)$;', function($app, $params) {
 
-    echo "hello user " + $params['id'];
+    echo "hello user " . $params['id'];
 });
 
 
